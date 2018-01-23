@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>SomeConsoleApplication</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>96fed58b-6b13-4b22-9d88-8ca270701ff5</ProjectGuid>
+  <FullPath>C:\Users\c46q812\Documents\LocalRepository\analysis-projects\csharp\SomeCSharpConsoleApplication\SomeConsoleApplication\SomeConsoleApplication.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\c46q812\Documents\LocalRepository\analysis-projects\csharp\SomeCSharpConsoleApplication\SomeConsoleApplication\.sonarqube\out\\SomeConsoleApplication_5108\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Users\c46q812\Documents\LocalRepository\analysis-projects\csharp\SomeCSharpConsoleApplication\SomeConsoleApplication\bin\Debug\SomeConsoleApplication.exe.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Users\c46q812\Documents\LocalRepository\analysis-projects\csharp\SomeCSharpConsoleApplication\SomeConsoleApplication\.sonarqube\out\\SomeConsoleApplication_5108</Property>
+    <Property Name="sonar.stylecop.projectFilePath">C:\Users\c46q812\Documents\LocalRepository\analysis-projects\csharp\SomeCSharpConsoleApplication\SomeConsoleApplication\SomeConsoleApplication.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>
