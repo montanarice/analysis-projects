@@ -526,10 +526,12 @@ project.lock.json
 *.Specs_*.html
 
 .vscode/*
+*.code-workspace
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
 
 # Compiled class file
 *.class
