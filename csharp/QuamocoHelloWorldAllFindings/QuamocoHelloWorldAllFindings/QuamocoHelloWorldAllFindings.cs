@@ -1,13 +1,21 @@
-﻿namespace QuamocoHelloWorldAllFindings
+﻿using System;
+
+namespace QuamocoHelloWorldAllFindings
 {
-    public class QuamocoHelloWorldAllFindings
+    /// <summary>
+    /// Project that triggers 3 findings according to the Quamoco
+    /// Hello World quality model.
+    /// </summary>
+    public static class QuamocoHelloWorldAllFindings
     {
-        public static void Main(string[] args)
+        /// <summary>
+        /// Run the three static methods of FindingsCollectionException class
+        /// that generate the three findings.
+        /// </summary>
+        public static void Main(String[] args)
         {
-            FindingsCollection findings = new FindingsCollection();
-            findings.S134Finding();
-            findings.S3693Finding();
-            findings.S1067Finding();
+            FindingsCollectionException.S134Finding();
+            FindingsCollectionException.S1067Finding();
         }
     }
 }
