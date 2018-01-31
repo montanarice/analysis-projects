@@ -9,11 +9,11 @@ namespace NoFindings
     /// 
     /// Here are more comment lines to reach minimum comment threshold density.
     /// </summary>
-    public class NoFindings
+    public static class NoFindings
     {
         public static void Main(String[] args)
         {
-            String someString = String.Empty;
+            // Do nothing. This comment avoids a code smell.
         }
     }
 }
