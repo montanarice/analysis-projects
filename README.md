@@ -1,5 +1,6 @@
 # Analysis Projects
 Repository to store lightweight projects in various languages to run quality analysis on. 
+This projects assume one is running the "SonarWay" Quality Profile in SonarQube.
 
 ### Analyzing Java Projects
 - (todo)
@@ -23,4 +24,3 @@ Repository to store lightweight projects in various languages to run quality ana
 - Run SonarQube Scanner for MSBuild end phase:
 
         SonarQube.Scanner.MSBuild.exe end
-
