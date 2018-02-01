@@ -71,5 +71,26 @@ namespace QuamocoHelloWorldAllFindings
                 // Do nothing
             }
         }
+
+        /// <summary>
+        /// S1862: Related "if/else if" statements should not have the same condition.
+        /// This method shows as a Bug - pitfall/unused
+        /// </summary>
+        public static void S1862Finding()
+        {
+            int param = 3;
+            if (param == 1)
+            {
+                param = 4;
+            }
+            else if (param == 2)
+            {
+                param = 5;
+            }
+            else if (param == 1)
+            {
+                param = 6;
+            }
+        }
     }
 }
