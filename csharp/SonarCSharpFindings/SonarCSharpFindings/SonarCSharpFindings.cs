@@ -9,7 +9,6 @@ namespace SonarCSharpFindings
             FindingsCollection findings = new FindingsCollection();
             findings.S134Finding();
             findings.S2757Finding();
-            findings.S3420Finding();
         }
     }
 }

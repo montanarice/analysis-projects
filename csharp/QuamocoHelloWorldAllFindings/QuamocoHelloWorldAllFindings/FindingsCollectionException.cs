@@ -21,7 +21,7 @@ namespace QuamocoHelloWorldAllFindings
         }
 
         public FindingsCollectionException(string message)
-          : base(message) { }
+            : base(message) { }
 
         public FindingsCollectionException(string message, Exception innerException)
             : base(message, innerException) { }
